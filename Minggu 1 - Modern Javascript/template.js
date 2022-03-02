@@ -9,4 +9,3 @@ let age = prompt("Masukkan Umur Darman Saragih!");
 // Memakai template strings
 let result = `${fname} ${lname} is ${age} years old`;
 alert(result);
-

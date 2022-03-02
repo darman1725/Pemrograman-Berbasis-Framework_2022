@@ -6,11 +6,3 @@ polStudent({
     name: 'Darman Saragih',
     polytechnic: 'Politeknik Negeri Malang'
 });
-
-
-
-
-
-
-
-

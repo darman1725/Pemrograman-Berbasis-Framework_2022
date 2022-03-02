@@ -3,3 +3,4 @@ if (true) {
     name = 'Politeknik Negeri Malang';
     alert(name);
 }
+

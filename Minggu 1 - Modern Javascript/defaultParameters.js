@@ -3,7 +3,3 @@ function welcome(user = 'Cantik', message = 'Selamat beraktifitas dan jangan lup
 }
 
 welcome();
-
-
-
-
