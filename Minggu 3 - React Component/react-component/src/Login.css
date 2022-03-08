@@ -1,0 +1,72 @@
+.login-screen{
+    width: 80%;
+
+}
+.login-box{
+    border:1.5px solid royalblue;
+    border-radius: 10px;
+    width: 30%;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+}
+.title-box{
+    /* border:5px solid green; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: royalblue;
+    text-align: center;
+
+}
+.form-box{
+    /* border:5px solid blue; */
+    margin: 25px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+input{
+    margin: 5px;
+    border-radius: 5px;
+}
+input[type="text"], input[type="password"]{
+    height: 25px;
+    width: 90%;
+}
+label{
+    font-size: 13px;
+}
+.login-button{
+    width: 90%;
+    height: 50px;
+    position: relative;
+    left: 5%;
+    text-align: center;
+    font-weight: bold;
+    background-color: limegreen;
+    border-radius: 10px;
+}
+.login-button:hover{
+    background-color: lime;
+}
+.cancel-button{
+    margin: 5px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cancel-button:hover{
+    background-color: orangered;
+}
+
