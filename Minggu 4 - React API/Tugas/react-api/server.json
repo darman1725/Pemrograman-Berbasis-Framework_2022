@@ -1,0 +1,41 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1647863386576,
+      "nim": "1941720060",
+      "nama": "Darman Saputra Saragih",
+      "alamat": "Medan",
+      "telfon": "082196360193",
+      "angkatan": "2019",
+      "status": "Aktif"
+    },
+    {
+      "id": 1647863445630,
+      "nim": "1841720080",
+      "nama": "Ricardo Simarmata",
+      "alamat": "Jakarta",
+      "telfon": "088741092393",
+      "angkatan": "2019",
+      "status": "Aktif"
+    },
+    {
+      "id": 1647866741710,
+      "nim": "2041720187",
+      "nama": "Bayu Dimas",
+      "alamat": "Surabaya",
+      "telfon": "082161843220",
+      "angkatan": "2020",
+      "status": "Cuti"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
