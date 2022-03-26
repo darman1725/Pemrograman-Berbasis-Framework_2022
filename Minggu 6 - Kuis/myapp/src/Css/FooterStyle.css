@@ -1,0 +1,33 @@
+footer{
+    position: fixed;
+    bottom:0;
+    background-color: #000;
+    width:100%;
+    padding:.5em;
+}
+.line{
+    width:30%;
+}
+hr{
+    margin-bottom: .5em;
+}
+.icon{
+    margin-right:1em;
+}
+.copyright p{
+    text-align: center;
+    color:#fff;
+    margin-bottom:.5em;
+}
+
+/* Media queries */
+@media screen and (max-width:1024px){
+    .line{
+        width:40%;
+    }
+}
+@media screen and (max-width:568px){
+hr{
+    display: none;
+}
+}
