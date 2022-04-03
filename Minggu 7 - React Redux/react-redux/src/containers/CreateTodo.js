@@ -25,12 +25,13 @@ class CreateTodo extends Component {
             type="text"
             className="form-control"
             id="inputEmail3"
-            placeholder="add todo here"
+            style={{ marginTop: "7%", marginLeft: "100px" }}
+            placeholder="Add todo here"
           />
           <button
             type="button"
             onClick={() => this.setState({ todotext: "" })}
-            style={{ marginTop: "25px", marginRight: "15px" }}
+            style={{ marginTop: "25px", marginLeft: "100px" }}
             className="btn btn-danger"
           >
             Cancel
@@ -40,7 +41,7 @@ class CreateTodo extends Component {
             onClick={() => {
               this.props.addTodo(this.state.todotext);
               this.setState({ todotext: "" })}}
-            style={{ marginTop: "25px" }}
+            style={{ marginTop: "25px", marginLeft: "20px" }}
             className="btn btn-success"
           >
             Add Todo
