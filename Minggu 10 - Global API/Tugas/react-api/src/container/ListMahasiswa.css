@@ -1,0 +1,52 @@
+h2 {
+    font-weight: bold;
+}
+
+.card{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.card h4{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-success{
+    margin-bottom: 20px;
+}
+
+.services-block-three{
+    display: block;
+    margin-bottom: 30px;
+    border: 2px solid #d5d5d5;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+.services-block-three h4 {
+    color: #3b3b3b;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left;
+    font-weight: bold;
+}
+.services-block-three p {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #474747;
+    text-align: left;
+}
+.services-block-three .btn-danger {
+    margin-top: 10px;
+}

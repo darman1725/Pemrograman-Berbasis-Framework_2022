@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Penerapan layout bisa dilihat di https://getbootstrap.com/docs/4.0/layout/overview -->
+    <!-- Containers adalah basic layout element di Bootstrap dan Diperlukan jika menggunakan default grid system bootstrap. -->
+    <!-- Ada 2 pilihan Containers:
+         1. Class container : Untuk layout yang model box (tidak full-width layar browser)
+         2. Class container-fluid : Untuk layout model yang full-width layar browser
+         Untuk lebih jelasnya, silahkan dicoba satu persatu.
+         Default kita saat ini, menggunakan yang full-width (container-fluid). -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2" id="sidebar">Sidebar</div>
+        <div class="col-10" id="content">Blog Artikel</div>
+      </div>
+    </div>
+  </body>
+</html>
