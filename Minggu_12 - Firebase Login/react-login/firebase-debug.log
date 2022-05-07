@@ -1,0 +1,33 @@
+[debug] [2022-05-02T12:08:46.418Z] ----------------------------------------------------------------------
+[debug] [2022-05-02T12:08:46.421Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Darman Saragih\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-02T12:08:46.422Z] CLI Version:   10.7.2
+[debug] [2022-05-02T12:08:46.422Z] Platform:      win32
+[debug] [2022-05-02T12:08:46.422Z] Node Version:  v16.14.0
+[debug] [2022-05-02T12:08:46.425Z] Time:          Mon May 02 2022 19:08:46 GMT+0700 (Western Indonesia Time)
+[debug] [2022-05-02T12:08:46.425Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-02T12:08:46.536Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-02T12:08:46.537Z] > authorizing via signed-in user (darmansaragih087@gmail.com)
+[debug] [2022-05-02T12:08:46.537Z] [iam] checking project reactlogin-10c74 for permissions ["firebase.projects.get"]
+[debug] [2022-05-02T12:08:46.539Z] > refreshing access token with scopes: []
+[debug] [2022-05-02T12:08:46.540Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-02T12:08:46.962Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 02 May 2022 12:08:48 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-02T12:08:46.985Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactlogin-10c74:testIamPermissions [none]
+[debug] [2022-05-02T12:08:46.986Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactlogin-10c74:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-02T12:08:48.496Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactlogin-10c74:testIamPermissions 200
+[debug] [2022-05-02T12:08:48.496Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactlogin-10c74:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-02T12:08:48.499Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactlogin-10c74 [none]
+[debug] [2022-05-02T12:08:49.501Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactlogin-10c74 200
+[debug] [2022-05-02T12:08:49.502Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactlogin-10c74 {"projectId":"reactlogin-10c74","projectNumber":"640122419955","displayName":"reactLogin","name":"projects/reactlogin-10c74","resources":{"hostingSite":"reactlogin-10c74","storageBucket":"reactlogin-10c74.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\Darman Saragih\react\react-login'...
+[info] 
+[debug] [2022-05-02T12:08:49.507Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/reactlogin-10c74/sites 
+[debug] [2022-05-02T12:08:51.346Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/reactlogin-10c74/sites 200
+[debug] [2022-05-02T12:08:51.346Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/reactlogin-10c74/sites {"sites":[{"name":"projects/reactlogin-10c74/sites/reactlogin-10c74","defaultUrl":"https://reactlogin-10c74.web.app","appId":"1:640122419955:web:1046d3451894116df25586","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-02T12:08:51.347Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactlogin-10c74/webApps/1:640122419955:web:1046d3451894116df25586/config [none]
+[debug] [2022-05-02T12:08:52.880Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactlogin-10c74/webApps/1:640122419955:web:1046d3451894116df25586/config 200
+[debug] [2022-05-02T12:08:52.880Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactlogin-10c74/webApps/1:640122419955:web:1046d3451894116df25586/config {"projectId":"reactlogin-10c74","appId":"1:640122419955:web:1046d3451894116df25586","storageBucket":"reactlogin-10c74.appspot.com","locationId":"us-central","apiKey":"AIzaSyBwNJYxHsFWoQNB5nVJfKYn2Pi1NYFYSB0","authDomain":"reactlogin-10c74.firebaseapp.com","messagingSenderId":"640122419955","measurementId":"G-4MRVBZJEK8"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
